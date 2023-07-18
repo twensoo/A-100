@@ -5,13 +5,15 @@
 
 
 #### Установка
-````shell
+
+```shell
 git clone https://github.com/twensoo/A-100.git
 cd A-100
 pip install -r requirements.txt
 ```
 
 #### Для запуска поиска
+
 ```shell
 python3 a100.py -u {username}
 python a100.py -u {username}
