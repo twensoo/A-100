@@ -166,15 +166,15 @@ if __name__ == '__main__':
     parser.add_argument('-u', action='store', dest='username',
                         required=False,
                         help='The target username.')
-    parser.add_argument('--list-sites', action='store_true', dest='list',
+    parser.add_argument('-list', action='store_true', dest='list sites',
                         required=False,
                         help='List all sites currently supported.')
     parser.add_argument('-f', action='store', dest='file',
                         required=False,
                         help='Read results file.')
-    parser.add_argument('--web', action='store_true', dest='web',
-                        required=False,
-                        help='Run webserver.')
+    # parser.add_argument('--web', action='store_true', dest='web',
+    #                     required=False,
+    #                     help='Run webserver.')
     parser.add_argument('--proxy', action='store', dest='proxy',
                         required=False,
                         help='Proxy to send requests through.E.g: --proxy http://127.0.0.1:8080 ')
