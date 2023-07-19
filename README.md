@@ -20,7 +20,7 @@ python3 a100.py -u {username}
 python a100.py -u {username}
 ```
 
-#### Результаты поиска сохраняются в папку result в json файл
+#### Результаты поиска сохраняются в папку results в json файл
 #### Для вывода результатов
 ```shell
 python3 a100.py -f username.json
