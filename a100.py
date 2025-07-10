@@ -13,6 +13,7 @@ from datetime import datetime
 import aiohttp
 from bs4 import BeautifulSoup
 from colorama import Fore, init
+# добавление тестов и изменений кода
 
 file = open('data.json')
 searchData = json.load(file)
